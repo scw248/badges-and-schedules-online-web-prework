@@ -31,6 +31,6 @@ def assign_rooms(attendees)
    arr << "Hello, my name is #{name}."
    arr << "Hello, #{name}! You'll be assigned to room #{room_assignment[0]}!"
    room_assignment.shift
-   put arr
+   puts arr
  end
  end
