@@ -23,6 +23,12 @@ def assign_rooms(attendees)
  arr 
  end
  
- def printer(attendees)
-  attendees.each 
+ def printer(attendees)\
+   
+  room_assignment = [1, 2, 3, 4, 5, 6, 7]
+  attendees.each do |name|
+    puts "Hello, my name is #{name}."
+    puts "Hello, #{name}! You'll be assigned to room #{room_assignment[0]}!"
+    room_assignment.shift
+  end
  end
