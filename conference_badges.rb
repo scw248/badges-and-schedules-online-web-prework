@@ -32,3 +32,4 @@ def assign_rooms(attendees)
      break
    end
  end
+ end
