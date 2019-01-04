@@ -24,12 +24,5 @@ def assign_rooms(attendees)
  end
  
  def printer(attendees)
-   loop do
-   puts batch_badge_creator(attendees[0])
-   puts assign_rooms(attendees[0])
-   attendees.shift
-   if attendees.length == 0
-     break
-   end
- end
+  attendees.each 
  end
