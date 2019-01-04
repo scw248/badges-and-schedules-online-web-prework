@@ -15,7 +15,7 @@ def batch_badge_creator(array_of_names)
 
 def assign_rooms(attendees)
  arr = [] 
- room_number = 1 + rand(7).uniq
+ room_number = 1 + rand(7)
  attendees.each do |name|
    arr << "Hello, #{name}! You'll be assigned to room #{room_number}!"
  end
